@@ -1,0 +1,385 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cstm-navbar{
+
+}
+.cstm-logo{
+	margin-left: 160px;
+    padding: 10px 0px;
+    width: 170px;
+}
+a.nav-link {
+    color: #72747A;
+    font-size: 17px;
+    margin: 0px 20px;
+    font-weight: 500;
+    transition: 0.6s ease-in-out;
+    font-family: 'Roboto Slab', serif;
+}
+.fa.fa-bars{
+    color: #161616;
+}
+a.nav-link:hover{
+	 background: #DD4B2B;
+	 color: #fff !important;
+	 border-radius: 18px;
+	 
+}
+/*Food Section*/
+.food-member{
+	background: url(../img/banner1.jpg)no-repeat;
+	background-size: cover;
+}
+.food-content h1{
+	text-align: center;
+    margin-top: 315px;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 50px;
+}
+.food-content h6{
+	text-align: center;
+    color: #E7E8EA;
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+    padding: 5px 0px;
+}
+
+.food-item{
+    margin-top: 100px;
+}
+.food-item img{
+    display: block;
+    margin: auto;   
+}
+ .food-item h2{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    margin: 15px 0px;
+}
+ .food-item p{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.food-btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 75px;
+    width: 17%;
+    height: 54px;
+    font-size: 21px;
+    color: #814F45;
+    border-radius: 40px;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.food-btn:hover{
+    background: #F2560C;
+    color: #fff;
+}
+
+/*News Section*/
+
+.news-section{
+    background: #E9EBEC;
+}
+ 
+.news-title{
+    margin-bottom: 40px;
+}
+.news-title h1{
+    text-align: center;
+    margin: 62px 0px;
+    color: #545860;
+    font-family: 'Roboto Slab', serif;
+}
+ 
+.news-img{
+    width: 325px;
+    display: block;
+    margin: auto;
+}
+.news-menu h2{
+    text-align: center;
+    color: #31353E;
+    margin: 17px 0px;
+     font-family: 'Roboto Slab', serif;
+}
+.news-menu p{
+    color: #676A71;
+    text-align: center;
+     font-family: 'Roboto Slab', serif;
+}
+.news-btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 65px;
+    margin-top: 42px;
+    width: 155px;
+    height: 50px;
+    border: none;
+    background: #FFF;
+    color: #676A71;
+    border-radius: 30px;
+    transition: 0.6s ease-in-out;
+}
+.news-btn:hover{
+    background: #3CCBF4; 
+    color: #fff;
+}
+/* Letter Section*/
+.letter-section{
+    background: url(../img/banner3.jpg)no-repeat;
+    background-size: cover;
+
+}
+.letter{
+
+}
+.letter-menu{
+
+}
+.letter-menu h1{
+     text-align: center;
+    color: #fff;
+    margin-top: 55px;
+    font-size: 29px;
+    font-family: 'Roboto Slab', serif;
+}
+.letter-menu p{
+     width: 79%;
+    margin-left: 84px;
+    color: #fff;
+    font-size: 13px;
+     font-family: 'Roboto Slab', serif;
+}
+input.form-control {
+    border-radius: 26px;
+    height: 47px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 75px;
+    margin-top: 26px;
+     font-family: 'Roboto Slab', serif;
+}
+ 
+ input.letter-btn {
+    right: 15px;
+    position: absolute;
+    margin-top: -123px;
+    padding: 12px 31px;
+    border-radius: 24px;
+    border: none;
+    color: #764035;
+    transition: 0.5s ease-in-out;
+}
+
+ input.letter-btn:hover {
+     background: #DD4B2B;
+     color: #fff;
+}
+
+/*Sing Section*/
+
+.sing-section{
+
+}
+
+.sing-left{
+
+}
+
+.sing-left h3{
+   margin-top: 60px;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+    color: #55565D; 
+}
+.sing-left p{
+    text-align: justify;
+    margin: 27px 0px;
+    color: #55565D;
+    font-family: 'Roboto Slab', serif;
+}
+.sing-left h6{
+   padding: 19px 0px;
+    font-family: 'Roboto Slab', serif;
+    color: #55565D;
+    font-weight: 600;
+    font-size: 14px; 
+}
+.singup-btn-one{
+   position: absolute;
+    width: 145px;
+    height: 45px;
+    border-radius: 30px;
+    background: #F2560C;
+    color: #fff;
+    border: none;
+    font-size: 20px;  
+    transition: 0.4s ease-in-out;
+}
+.singup-btn-one:hover{
+   background: #3CCBF4;
+   color: #fff;
+     
+}
+.singup-btn{
+    position: absolute;
+    width: 145px;
+    height: 45px;
+    border-radius: 30px;
+    background: #4B4E73;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+
+}
+}
+.singup-btn:hover{
+    background: #3CCBF4;
+   color: #fff; 
+}
+.sing-img-one{
+    width: 365px;
+    margin-left: 7px;
+    margin-top: 73px;
+    margin-bottom: 70px;
+}
+.sing-img{
+    margin-top: 45px;
+    width: 365px;
+}
+/*Roll Section*/
+.title-roll{
+     background: #F2560C;
+}
+
+
+.roll-menu h6{
+     margin: auto;
+    width: 120px;
+    padding: 15px;
+    color: #fff;
+    padding-top: 85px;
+    padding-bottom: 65px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+ /*Content-Section*/
+.content-menu{
+      background: url(../img/banner3.jpg)no-repeat;
+    background-size: cover;
+}
+ 
+.content-title p{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 685px;
+    font-family: 'Roboto Slab', serif;
+}
+ 
+
+
+
+/*Media query*/
+
+/* Mobile device*/
+
+@media (min-width: 320px) and (max-width: 576px){
+     .singup-btn {
+    position: absolute;
+    width: 145px;
+    height: 45px;
+    border-radius: 30px;
+    background: #4B4E73;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+    top: 604px;
+}
+
+.sing-left h6 {
+    padding: 19px 0px;
+    font-family: 'Roboto Slab', serif;
+    color: #55565D;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 120px;
+}
+.content-title p {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 380px;
+    font-family: 'Roboto Slab', serif;
+}
+.food-btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 75px;
+    width: 30%;
+    height: 54px;
+    font-size: 21px;
+    color: #814F45;
+    border-radius: 40px;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.cstm-logo {
+    margin-left: 15px;
+    padding: 10px 0px;
+    width: 170px;
+}
+ input.form-control {
+    border-radius: 26px;
+    height: 47px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 75px;
+    margin-top: 48px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 11%;
+    width: 75%;
+}
+input.letter-btn {
+    right: 75px;
+    position: absolute;
+    margin-top: -123px;
+    padding: 12px 31px;
+    border-radius: 24px;
+    border: none;
+    color: #764035;
+    transition: 0.5s ease-in-out;
+}
+}
+
+
+/*small & tab device*/
+
+@media (min-width: 576.01px) and (max-width: 768px){
+
+}
+
+
+/*notebook/laptop device*/
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+} 
